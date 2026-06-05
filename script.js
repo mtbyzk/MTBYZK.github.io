@@ -22,9 +22,9 @@ let lastScroll = 0;
 window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
     if (currentScroll > 50) {
-        navbar.style.background = 'rgba(0, 0, 0, 0.88)';
+        navbar.style.background = 'rgba(251, 251, 253, 0.88)';
     } else {
-        navbar.style.background = 'rgba(0, 0, 0, 0.72)';
+        navbar.style.background = 'rgba(251, 251, 253, 0.72)';
     }
     lastScroll = currentScroll;
 });
